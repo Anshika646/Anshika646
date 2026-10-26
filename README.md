@@ -130,7 +130,7 @@ class Anshika:
 <div align="center">
 
 <!-- Dark Contribution Grid Snake Animation -->
-<img src="https://raw.githubusercontent.com/Parv-spamz/Parv-spamz/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="860" />
+<img src="https://raw.githubusercontent.com/Anshika646/Anshika646/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="860" />
 
 </div>
 
