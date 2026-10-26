@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24" width="100%" height="24">
+  <defs>
+    <linearGradient id="divider-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B0D12" stop-opacity="0" />
+      <stop offset="25%" stop-color="#7957FF" stop-opacity="0.3" />
+      <stop offset="45%" stop-color="#32D8F5" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#79F2C0" stop-opacity="1" />
+      <stop offset="55%" stop-color="#32D8F5" stop-opacity="0.85" />
+      <stop offset="75%" stop-color="#7957FF" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0B0D12" stop-opacity="0" />
+    </linearGradient>
+
+    <radialGradient id="node-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#79F2C0" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#32D8F5" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#0B0D12" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Ambient Node Glow -->
+  <circle cx="500" cy="12" r="10" fill="url(#node-glow)" />
+
+  <!-- Divider Line -->
+  <line x1="60" y1="12" x2="940" y2="12" stroke="url(#divider-grad)" stroke-width="1.5" />
+
+  <!-- Center Geometric Diamond Node -->
+  <g transform="translate(500, 12)">
+    <polygon points="0,-4 4,0 0,4 -4,0" fill="#79F2C0" />
+    <circle cx="0" cy="0" r="1.5" fill="#FFFFFF" />
+  </g>
+</svg>

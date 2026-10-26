@@ -1,0 +1,302 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bg-glow" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#181528" stop-opacity="0.9" />
+      <stop offset="45%" stop-color="#0E121A" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#0B0D12" stop-opacity="1" />
+    </radialGradient>
+
+    <!-- Center 3D Core Radial Glow -->
+    <radialGradient id="core-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7957FF" stop-opacity="0.35" />
+      <stop offset="40%" stop-color="#32D8F5" stop-opacity="0.15" />
+      <stop offset="80%" stop-color="#79F2C0" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#0B0D12" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Linear Gradients for 3D Rings & Geometry -->
+    <linearGradient id="grad-ring-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7957FF" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#32D8F5" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#79F2C0" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="grad-ring-2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#79F2C0" stop-opacity="0.85" />
+      <stop offset="60%" stop-color="#32D8F5" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#7957FF" stop-opacity="0.1" />
+    </linearGradient>
+
+    <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#F5F7FA" />
+      <stop offset="70%" stop-color="#32D8F5" />
+      <stop offset="100%" stop-color="#79F2C0" />
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A2030" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0E121A" stop-opacity="0.85" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="soft-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono-text {
+        font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', 'Cascadia Code', monospace;
+      }
+      .sans-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      }
+
+      /* Subtle CSS Keyframe Animations */
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-7px); }
+      }
+      @keyframes floatMedium {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-9px) rotate(1deg); }
+      }
+      @keyframes floatOpposite {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(7px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.55; transform: scale(1); }
+        50% { opacity: 0.85; transform: scale(1.03); }
+      }
+      @keyframes orbitRing1 {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -40; }
+      }
+      @keyframes signalPulse {
+        0% { r: 2; opacity: 0.2; }
+        50% { r: 5; opacity: 1; }
+        100% { r: 2; opacity: 0.2; }
+      }
+
+      .floating-obj-1 { animation: floatSlow 6s ease-in-out infinite; }
+      .floating-obj-2 { animation: floatMedium 7.5s ease-in-out infinite; }
+      .floating-obj-3 { animation: floatOpposite 6.5s ease-in-out infinite; }
+      .pulse-item { animation: pulseGlow 4s ease-in-out infinite; transform-origin: center; }
+      .dash-flow { stroke-dasharray: 4, 4; animation: dashMove 3s linear infinite; }
+      .pulse-node { animation: signalPulse 2.8s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1000" height="380" rx="16" fill="#0B0D12" />
+  <rect width="1000" height="380" rx="16" fill="url(#bg-glow)" />
+
+  <!-- Subtle Matrix / Technical Coordinate Grid -->
+  <g stroke="#1C202C" stroke-width="0.75" opacity="0.45">
+    <line x1="100" y1="0" x2="100" y2="380" stroke-dasharray="2, 6" />
+    <line x1="250" y1="0" x2="250" y2="380" stroke-dasharray="2, 6" />
+    <line x1="500" y1="0" x2="500" y2="380" stroke-dasharray="3, 5" stroke="#252D3D" opacity="0.6" />
+    <line x1="750" y1="0" x2="750" y2="380" stroke-dasharray="2, 6" />
+    <line x1="900" y1="0" x2="900" y2="380" stroke-dasharray="2, 6" />
+    <line x1="0" y1="80" x2="1000" y2="80" stroke-dasharray="2, 6" />
+    <line x1="0" y1="190" x2="1000" y2="190" stroke-dasharray="3, 5" stroke="#252D3D" opacity="0.6" />
+    <line x1="0" y1="300" x2="1000" y2="300" stroke-dasharray="2, 6" />
+  </g>
+
+  <!-- Outer Border Frame with Technical Accents -->
+  <rect x="1.5" y="1.5" width="997" height="377" rx="15" fill="none" stroke="#1C202C" stroke-width="1.5" />
+  <circle cx="16" cy="16" r="3" fill="#7957FF" opacity="0.7" />
+  <circle cx="28" cy="16" r="3" fill="#32D8F5" opacity="0.7" />
+  <circle cx="40" cy="16" r="3" fill="#79F2C0" opacity="0.7" />
+
+  <!-- Center Ambient 3D Glow -->
+  <circle cx="500" cy="180" r="220" fill="url(#core-glow)" class="pulse-item" />
+
+  <!-- ==================== 3D IRIDESCENT ORBITAL GEOMETRY ==================== -->
+  <g id="iridescent-geometry" transform="translate(500, 180)">
+    <!-- Ring 1: Tilted Isometric Orbit -->
+    <ellipse cx="0" cy="0" rx="310" ry="95" fill="none" stroke="url(#grad-ring-1)" stroke-width="2.2" transform="rotate(-16)" opacity="0.75" />
+    <ellipse cx="0" cy="0" rx="310" ry="95" fill="none" stroke="#32D8F5" stroke-width="1" stroke-dasharray="8, 30" transform="rotate(-16)" opacity="0.5" class="dash-flow" />
+
+    <!-- Ring 2: Counter-Tilted Geometric Orbit -->
+    <ellipse cx="0" cy="0" rx="275" ry="80" fill="none" stroke="url(#grad-ring-2)" stroke-width="1.8" transform="rotate(22)" opacity="0.6" />
+
+    <!-- 3D Polyhedral Nodes on Ring -->
+    <g transform="rotate(-16)">
+      <circle cx="-290" cy="0" r="4.5" fill="#7957FF" filter="url(#soft-glow)" />
+      <circle cx="290" cy="0" r="5" fill="#79F2C0" filter="url(#soft-glow)" />
+      <circle cx="0" cy="-90" r="3.5" fill="#32D8F5" filter="url(#soft-glow)" />
+    </g>
+
+    <!-- Inner Torus Wireform Grid -->
+    <ellipse cx="0" cy="0" rx="180" ry="50" fill="none" stroke="#7957FF" stroke-width="1.2" stroke-opacity="0.35" transform="rotate(5)" />
+    <ellipse cx="0" cy="0" rx="140" ry="40" fill="none" stroke="#32D8F5" stroke-width="1" stroke-opacity="0.25" transform="rotate(-8)" />
+  </g>
+
+  <!-- ==================== FLOATING 3D MATH & ML OBJECTS ==================== -->
+
+  <!-- Object 1 (Top Left): Deep Neural Network [3 x 4 x 1] -->
+  <g class="floating-obj-1" transform="translate(60, 48)">
+    <rect width="160" height="98" rx="8" fill="url(#card-grad)" stroke="#1C202C" stroke-width="1.2" />
+    <text x="14" y="20" class="mono-text" font-size="9" fill="#79F2C0" font-weight="600" letter-spacing="1">DNN · [3×4×1]</text>
+    
+    <!-- Synaptic Connections -->
+    <!-- Input to Hidden -->
+    <path d="M 32 40 L 80 32 M 32 40 L 80 50 M 32 40 L 80 68 M 32 40 L 80 86
+             M 32 63 L 80 32 M 32 63 L 80 50 M 32 63 L 80 68 M 32 63 L 80 86
+             M 32 86 L 80 32 M 32 86 L 80 50 M 32 86 L 80 68 M 32 86 L 80 86
+             M 80 32 L 132 59 M 80 50 L 132 59 M 80 68 L 132 59 M 80 86 L 132 59" 
+          stroke="#7957FF" stroke-width="0.8" opacity="0.38" />
+
+    <!-- Active Synaptic Pulse -->
+    <line x1="32" y1="63" x2="80" y2="50" stroke="#32D8F5" stroke-width="1.6" opacity="0.8" />
+    <line x1="80" y1="50" x2="132" y2="59" stroke="#79F2C0" stroke-width="1.6" opacity="0.9" />
+
+    <!-- Input Nodes -->
+    <circle cx="32" cy="40" r="3.5" fill="#32D8F5" />
+    <circle cx="32" cy="63" r="3.5" fill="#32D8F5" />
+    <circle cx="32" cy="86" r="3.5" fill="#32D8F5" />
+
+    <!-- Hidden Layer Nodes -->
+    <circle cx="80" cy="32" r="3.5" fill="#7957FF" />
+    <circle cx="80" cy="50" r="4" fill="#79F2C0" class="pulse-node" />
+    <circle cx="80" cy="68" r="3.5" fill="#7957FF" />
+    <circle cx="80" cy="86" r="3.5" fill="#7957FF" />
+
+    <!-- Output Node -->
+    <circle cx="132" cy="59" r="4.5" fill="#79F2C0" filter="url(#soft-glow)" />
+  </g>
+
+  <!-- Object 2 (Bottom Left): Linear Regression & Residual Error Bars -->
+  <g class="floating-obj-2" transform="translate(60, 240)">
+    <rect width="168" height="92" rx="8" fill="url(#card-grad)" stroke="#1C202C" stroke-width="1.2" />
+    <text x="14" y="20" class="mono-text" font-size="9" fill="#32D8F5" font-weight="600" letter-spacing="1">ŷ = Wᵀx + b · R²: 0.98</text>
+
+    <!-- Mini Coordinate Axes -->
+    <line x1="24" y1="78" x2="148" y2="78" stroke="#252D3D" stroke-width="1" />
+    <line x1="24" y1="78" x2="24" y2="30" stroke="#252D3D" stroke-width="1" />
+
+    <!-- Regression Line -->
+    <line x1="30" y1="72" x2="142" y2="34" stroke="#7957FF" stroke-width="2.2" stroke-linecap="round" />
+
+    <!-- Residuals (Error bars) -->
+    <line x1="50" y1="65" x2="50" y2="58" stroke="#79F2C0" stroke-width="1" stroke-dasharray="2, 2" />
+    <line x1="85" y1="53" x2="85" y2="61" stroke="#79F2C0" stroke-width="1" stroke-dasharray="2, 2" />
+    <line x1="120" y1="41" x2="120" y2="36" stroke="#79F2C0" stroke-width="1" stroke-dasharray="2, 2" />
+
+    <!-- Scatter Data Points -->
+    <circle cx="50" cy="58" r="3" fill="#32D8F5" />
+    <circle cx="70" cy="60" r="3" fill="#32D8F5" />
+    <circle cx="85" cy="61" r="3.2" fill="#79F2C0" />
+    <circle cx="105" cy="44" r="3" fill="#32D8F5" />
+    <circle cx="120" cy="36" r="3.2" fill="#7957FF" />
+    <circle cx="136" cy="38" r="3" fill="#32D8F5" />
+  </g>
+
+  <!-- Object 3 (Top Right): 3D Isometric Manifold & Loss Surface ∇L(θ) -->
+  <g class="floating-obj-3" transform="translate(775, 48)">
+    <rect width="165" height="98" rx="8" fill="url(#card-grad)" stroke="#1C202C" stroke-width="1.2" />
+    <text x="14" y="20" class="mono-text" font-size="9" fill="#7957FF" font-weight="600" letter-spacing="1">3D LOSS MANIFOLD · ∇L</text>
+
+    <!-- Isometric 3D Coordinate Axis -->
+    <line x1="82" y1="65" x2="82" y2="30" stroke="#32D8F5" stroke-width="1.2" stroke-linecap="round" />
+    <line x1="82" y1="65" x2="135" y2="82" stroke="#7957FF" stroke-width="1.2" stroke-linecap="round" />
+    <line x1="82" y1="65" x2="28" y2="82" stroke="#79F2C0" stroke-width="1.2" stroke-linecap="round" />
+    <text x="84" y="32" class="mono-text" font-size="7" fill="#32D8F5">z</text>
+    <text x="138" y="86" class="mono-text" font-size="7" fill="#7957FF">x</text>
+    <text x="20" y="86" class="mono-text" font-size="7" fill="#79F2C0">y</text>
+
+    <!-- Parabolic Loss Contour Wireframe -->
+    <path d="M 38 72 Q 82 92 126 72" fill="none" stroke="#7957FF" stroke-width="1" opacity="0.6" />
+    <path d="M 46 62 Q 82 82 118 62" fill="none" stroke="#32D8F5" stroke-width="1.2" opacity="0.8" />
+    <path d="M 56 52 Q 82 70 108 52" fill="none" stroke="#79F2C0" stroke-width="1.2" opacity="0.9" />
+
+    <!-- Gradient Descent Minima Point -->
+    <circle cx="82" cy="74" r="3.5" fill="#79F2C0" filter="url(#soft-glow)" />
+    <line x1="68" y1="60" x2="80" y2="72" stroke="#79F2C0" stroke-width="1.5" stroke-dasharray="2, 2" />
+  </g>
+
+  <!-- Object 4 (Bottom Right): Decision Boundary / Classification -->
+  <g class="floating-obj-1" transform="translate(775, 240)">
+    <rect width="165" height="92" rx="8" fill="url(#card-grad)" stroke="#1C202C" stroke-width="1.2" />
+    <text x="14" y="20" class="mono-text" font-size="9" fill="#79F2C0" font-weight="600" letter-spacing="1">σ(z) = (1 + e⁻ᶻ)⁻¹</text>
+
+    <!-- Margin Shading -->
+    <path d="M 24 74 Q 80 65 140 38" fill="none" stroke="#32D8F5" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Class 0: Violet Points -->
+    <circle cx="42" cy="45" r="3.2" fill="#7957FF" />
+    <circle cx="58" cy="38" r="3.2" fill="#7957FF" />
+    <circle cx="75" cy="48" r="3.2" fill="#7957FF" />
+    <circle cx="95" cy="34" r="3.2" fill="#7957FF" />
+
+    <!-- Class 1: Mint Points -->
+    <circle cx="68" cy="74" r="3.2" fill="#79F2C0" />
+    <circle cx="95" cy="65" r="3.2" fill="#79F2C0" />
+    <circle cx="118" cy="56" r="3.2" fill="#79F2C0" />
+    <circle cx="135" cy="70" r="3.2" fill="#79F2C0" />
+  </g>
+
+  <!-- Floating Code / Tech Badges (Middle Left and Middle Right) -->
+  <g transform="translate(245, 62)" class="floating-obj-2">
+    <rect width="98" height="24" rx="12" fill="#141926" stroke="#252D3D" stroke-width="1" />
+    <circle cx="14" cy="12" r="3.5" fill="#32D8F5" />
+    <text x="26" y="16" class="mono-text" font-size="9" fill="#A4ADBA">import torch</text>
+  </g>
+
+  <g transform="translate(650, 62)" class="floating-obj-3">
+    <rect width="105" height="24" rx="12" fill="#141926" stroke="#252D3D" stroke-width="1" />
+    <circle cx="14" cy="12" r="3.5" fill="#79F2C0" />
+    <text x="26" y="16" class="mono-text" font-size="9" fill="#A4ADBA">loss: 0.0142</text>
+  </g>
+
+  <g transform="translate(235, 305)" class="floating-obj-3">
+    <rect width="125" height="24" rx="12" fill="#141926" stroke="#252D3D" stroke-width="1" />
+    <circle cx="14" cy="12" r="3.5" fill="#7957FF" />
+    <text x="26" y="16" class="mono-text" font-size="9" fill="#A4ADBA">SELECT * FROM df</text>
+  </g>
+
+  <g transform="translate(640, 305)" class="floating-obj-1">
+    <rect width="115" height="24" rx="12" fill="#141926" stroke="#252D3D" stroke-width="1" />
+    <circle cx="14" cy="12" r="3.5" fill="#32D8F5" />
+    <text x="26" y="16" class="mono-text" font-size="9" fill="#A4ADBA">model.fit(X, y)</text>
+  </g>
+
+  <!-- ==================== MAIN HERO TYPOGRAPHY ==================== -->
+  <g transform="translate(500, 192)">
+    <!-- Behind-Name Soft Lighting Diffuse -->
+    <ellipse cx="0" cy="-8" rx="240" ry="45" fill="#7957FF" opacity="0.22" filter="url(#glow-blur)" />
+    <ellipse cx="0" cy="-8" rx="170" ry="30" fill="#32D8F5" opacity="0.28" filter="url(#glow-blur)" />
+
+    <!-- Name Shadow -->
+    <text x="0" y="0" text-anchor="middle" class="sans-text" font-size="82" font-weight="900" letter-spacing="14" fill="#0B0D12" stroke="#161A24" stroke-width="6" opacity="0.8">ANSHIKA</text>
+
+    <!-- Prominent Name Text with Gradient Fill & Glow -->
+    <text x="0" y="0" text-anchor="middle" class="sans-text" font-size="82" font-weight="900" letter-spacing="14" fill="url(#name-grad)" filter="url(#soft-glow)">ANSHIKA</text>
+
+    <!-- Subtitle Strip -->
+    <g transform="translate(0, 42)">
+      <rect x="-240" y="-16" width="480" height="28" rx="14" fill="#121622" stroke="#222B3D" stroke-width="1" opacity="0.9" />
+      <text x="0" y="3" text-anchor="middle" class="mono-text" font-size="11.5" font-weight="600" letter-spacing="3.5" fill="#A4ADBA">
+        <tspan fill="#32D8F5">PYTHON</tspan> • <tspan fill="#7957FF">MACHINE LEARNING</tspan> • <tspan fill="#79F2C0">SQL</tspan> • <tspan fill="#F5F7FA">DATA ANALYSIS</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
