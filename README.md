@@ -125,12 +125,19 @@ class Anshika:
 <img src="./assets/section-divider.svg" alt="divider" width="100%" />
 </div>
 
-## 🐍 GitHub Contributions
+## 🟢 Genuine GitHub Contributions
 
 <div align="center">
 
-<!-- Dark Contribution Grid Snake Animation -->
-<img src="https://raw.githubusercontent.com/Anshika646/Anshika646/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="860" />
+<a href="https://github.com/Anshika646" target="_blank">
+  <img src="./assets/github-contributions-calendar.svg" alt="Anshika646's GitHub Contributions Calendar" width="860" />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/Anshika646" target="_blank">
+  <img src="https://raw.githubusercontent.com/Anshika646/Anshika646/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="860" />
+</a>
 
 </div>
 
