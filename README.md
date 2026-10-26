@@ -1,46 +1,28 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=220&section=header&text=Anshika&fontSize=85&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Frontend%20Developer&descAlignY=58&descSize=22&descColor=a78bfa" alt="header" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=220&section=header&text=Anshika&fontSize=85&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Python%20%E2%80%A2%20Machine%20Learning%20%E2%80%A2%20SQL%20%E2%80%A2%20Data%20Analysis&descAlignY=60&descSize=20&descColor=a78bfa" alt="header" width="100%" />
 
 <br/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Data%20Analysis-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-00B4D8?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=620&height=45&lines=AI+%26+Machine+Learning+Enthusiast;Python+Developer;Data+Science+Explorer;Frontend+Developer;Turning+Data+into+Insights" alt="Typing SVG" />
+
+<br/><br/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,30&height=3&section=header" width="100%" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=620&height=45&lines=AI+%26+Machine+Learning+Enthusiast;Python+Developer;Data+Science+Explorer;Frontend+Developer;Building+the+Future+with+AI" alt="Typing SVG" />
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Anshika646&theme=discord&no-frame=true&no-bg=true&row=1&column=6" alt="trophies" />
-
-<br/><br/>
+<div align="center">
 
 <img src="https://raw.githubusercontent.com/Parv-spamz/Parv-spamz/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="860" />
 
+</div>
+
 <br/>
 
-<table align="center" width="860" style="border-collapse: collapse; border: none; margin: 12px auto 0 auto;">
-  <tr align="center">
-    <td align="center" width="50%" style="border: none; padding: 4px;">
-      <a href="https://github.com/Anshika646">
-        <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anshika646&layout=compact&langs_count=6&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&border_color=30363d&border_radius=10" alt="Top Languages" />
-      </a>
-    </td>
-    <td align="center" width="50%" style="border: none; padding: 4px;">
-      <a href="https://github.com/Anshika646">
-        <img height="190" src="https://streak-stats.demolab.com/?user=Anshika646&background=0d1117&border=30363d&stroke=30363d&ring=a78bfa&fire=a78bfa&currStreakNum=a78bfa&sideNums=c9d1d9&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&border_radius=10" alt="GitHub Streak" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,30&height=3" width="100%" />
 
 ---
 
@@ -51,7 +33,7 @@
 <p align="center">
   <sub><b>LANGUAGES & AI / ML</b></sub><br/><br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch&theme=dark" />
   </a>
 </p>
 
@@ -73,12 +55,41 @@
 
 ---
 
+## 📊 GitHub Stats
+
+<div align="center">
+
+<table align="center" width="860" style="border-collapse: collapse; border: none; margin: 12px auto 0 auto;">
+  <tr align="center">
+    <td align="center" width="50%" style="border: none; padding: 4px;">
+      <a href="https://github.com/Anshika646">
+        <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anshika646&layout=compact&langs_count=6&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&border_color=30363d&border_radius=10" alt="Top Languages" />
+      </a>
+    </td>
+    <td align="center" width="50%" style="border: none; padding: 4px;">
+      <a href="https://github.com/Anshika646">
+        <img height="190" src="https://streak-stats.demolab.com/?user=Anshika646&background=0d1117&border=30363d&stroke=30363d&ring=a78bfa&fire=a78bfa&currStreakNum=a78bfa&sideNums=c9d1d9&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&border_radius=10" alt="GitHub Streak" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<a href="https://github.com/Anshika646">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Anshika646&bg_color=0d1117&color=a78bfa&line=7c3aed&point=ffffff&area=true&hide_border=true&radius=8" alt="Activity Graph" width="860" />
+</a>
+
+</div>
+
+---
+
 ## 💜 About Me
 
 ```python
 class Anshika:
-    role       = ["Frontend Developer", "AI & ML Enthusiast"]
-    skills     = ["Python", "Data Analysis", "Machine Learning", "SQL"]
+    role       = ["AI & ML Enthusiast", "Frontend Developer", "Data Analyst"]
+    skills     = ["Python", "Machine Learning", "Data Analysis", "SQL"]
     databases  = ["MySQL", "MongoDB", "SQLite"]
     frontend   = ["HTML", "CSS", "JavaScript", "React"]
     currently  = "Exploring AI & building beautiful UIs"
@@ -91,8 +102,10 @@ class Anshika:
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Anshika646&color=a78bfa&style=flat-square&label=Profile+Views)
 
+<br/><br/>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,30&height=120&section=footer&animation=fadeIn" alt="footer" width="100%" />
 
-<sub>⭐ Star my repos if you find them useful! | Made with 💜 by Anshika</sub>
+<sub>Made with 💜 by Anshika</sub>
 
 </div>
