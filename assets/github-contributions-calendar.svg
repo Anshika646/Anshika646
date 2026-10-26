@@ -32,30 +32,30 @@
     <text x="18" y="8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#F0F6FC" letter-spacing="0.3">
       53 Contributions in the last year
     </text>
-    <text x="650" y="8" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#79F2C0" font-weight="500">
+    <text x="650" y="8" font-family="'SF Mono', 'Fira Code', monospace" font-size="11" fill="#39d353" font-weight="600">
       ⚡ github.com/Anshika646
     </text>
   </g>
 
   <!-- Day of Week Labels -->
-  <text x="24" y="90.0" fill="#7d8590" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Mon</text>
-  <text x="24" y="120.0" fill="#7d8590" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Wed</text>
-  <text x="24" y="150.0" fill="#7d8590" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Fri</text>
+  <text x="24" y="90.0" fill="#8b949e" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Mon</text>
+  <text x="24" y="120.0" fill="#8b949e" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Wed</text>
+  <text x="24" y="150.0" fill="#8b949e" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Fri</text>
 
   <!-- Month Labels -->
-  <text x="55.0" y="52" fill="#7d8590" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Oct</text>
-<text x="70.0" y="52" fill="#7d8590" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Nov</text>
-<text x="145.0" y="52" fill="#7d8590" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Dec</text>
-<text x="205.0" y="52" fill="#7d8590" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Jan</text>
-<text x="265.0" y="52" fill="#7d8590" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb</text>
-<text x="325.0" y="52" fill="#7d8590" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Mar</text>
-<text x="400.0" y="52" fill="#7d8590" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Apr</text>
-<text x="460.0" y="52" fill="#7d8590" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">May</text>
-<text x="535.0" y="52" fill="#7d8590" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Jun</text>
-<text x="595.0" y="52" fill="#7d8590" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Jul</text>
-<text x="655.0" y="52" fill="#7d8590" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Aug</text>
-<text x="730.0" y="52" fill="#7d8590" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Sep</text>
-<text x="790.0" y="52" fill="#7d8590" font-size="10.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Oct</text>
+  <text x="55.0" y="52" fill="#8b949e" font-size="10.5" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Oct</text>
+<text x="100.0" y="52" fill="#8b949e" font-size="10.5" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Nov</text>
+<text x="145.0" y="52" fill="#8b949e" font-size="10.5" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Dec</text>
+<text x="205.0" y="52" fill="#8b949e" font-size="10.5" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Jan</text>
+<text x="265.0" y="52" fill="#8b949e" font-size="10.5" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Feb</text>
+<text x="325.0" y="52" fill="#8b949e" font-size="10.5" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Mar</text>
+<text x="400.0" y="52" fill="#8b949e" font-size="10.5" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Apr</text>
+<text x="460.0" y="52" fill="#8b949e" font-size="10.5" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">May</text>
+<text x="535.0" y="52" fill="#8b949e" font-size="10.5" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Jun</text>
+<text x="595.0" y="52" fill="#8b949e" font-size="10.5" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Jul</text>
+<text x="655.0" y="52" fill="#8b949e" font-size="10.5" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Aug</text>
+<text x="730.0" y="52" fill="#8b949e" font-size="10.5" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Sep</text>
+<text x="790.0" y="52" fill="#8b949e" font-size="10.5" font-weight="500" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">Oct</text>
 
   <!-- Contribution Grid Rectangles -->
   <rect x="55.0" y="66.0" width="11.5" height="11.5" rx="2.5" fill="#161b22" stroke="#21262d" stroke-width="0.8"><title>No contributions on Oct 26, 2025</title></rect>
@@ -427,12 +427,12 @@
 
   <!-- Footer Legend -->
   <g transform="translate(695, 177)">
-    <text x="-32" y="9.5" fill="#7d8590" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Less</text>
+    <text x="-32" y="9.5" fill="#8b949e" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Less</text>
     <rect x="0" y="0" width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.8" />
     <rect x="15" y="0" width="11" height="11" rx="2" fill="#0e4429" />
     <rect x="30" y="0" width="11" height="11" rx="2" fill="#006d32" />
     <rect x="45" y="0" width="11" height="11" rx="2" fill="#26a641" />
     <rect x="60" y="0" width="11" height="11" rx="2" fill="#39d353" filter="url(#green-glow)" />
-    <text x="78" y="9.5" fill="#7d8590" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">More</text>
+    <text x="78" y="9.5" fill="#8b949e" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">More</text>
   </g>
 </svg>
